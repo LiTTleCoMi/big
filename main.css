@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-parent {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+}
+.nav ul {
+    word-spacing: 20px;
+    font-size: 18px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+.nav-left {
+    color: white;
+    font-size: 30px;
+    line-height: 13px
+}
+.intro-parent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 713.9px;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.intro {
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+.subtitle {
+    font-weight: 100;
+    color: white;
+    padding-top: 15px;
+    font-size: 50px;
+}
+.background {
+    z-index: -2;
+    background-image: url(images/frontpage.jpg);
+    height: 713.9px;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    filter: brightness(50%);
+}
+.background-2-parent {
+    position: relative;
+    top: 650.7px;
+    width: 1519.2;
+    height: 350px;
+    background-color: black;
+    color: white;
+}
+.background-2 {
+    width: 525px;
+    height: 350px;
+    float: left;
+}
+.text-parent h2 {
+    font-size: 30px;
+    padding: 130px 0 30px 600px;
+    font-weight: 900;
+}
+.text-parent p {
+    padding: 0 75px 0 600px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.background-3-parent {
+    position: relative;
+    top: 650.7px;
+    width: 1519.2;
+    height: 350px;
+    background-color: #111;
+    color: white;
+}
+.background-3 {
+    width: 525px;
+    height: 350px;
+    float: right;
+}
+.pineapple-text h2 {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 130px 600px 30px 75px;
+}
+.pineapple-text p {
+    font-weight: 100;
+    font-size: 18px;
+    padding: 0 600px 0 75px;
+}
+.background-4-parent {
+    position: relative;
+    top: 650.7px;
+    width: 1519.2;
+    height: 350px;
+    background-color: #222;
+    color: white;
+}
+.background-4 {
+    width: 525px;
+    height: 350px;
+    float: left;
+}
+.pasta-text h2 {
+    font-size: 30px;
+    padding: 130px 0 30px 600px;
+    font-weight: 900;
+}
+.pasta-text p {
+    padding: 0 75px 0 600px;
+    font-weight: 100;
+    font-size: 18px;
+}
